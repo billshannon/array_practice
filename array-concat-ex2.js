@@ -1,8 +1,8 @@
-function concat(array){
+function concat(array) {
     var output = [];
-    for(var x=0;x<arguments.length;x++){
+    for (var x = 0; x < arguments.length; x++) {
         if (Array.isArray(arguments[x])) {
-            for (var i=0;i<arguments[x].length;i++){
+            for (var i = 0; i < arguments[x].length; i++) {
                 output.push(arguments[x][i]);
             }
         } else {

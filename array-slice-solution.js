@@ -1,5 +1,3 @@
-// not complete
-
 function Slice(arr, firstIndex, lastIndex) {
     var output = [];
 
